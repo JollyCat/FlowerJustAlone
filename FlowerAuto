@@ -1,6 +1,4 @@
 --Auto collect flower
-getgenv().speed = 180
-getgenv().delay = 0.5 --increase this if u get suck
 
 --[[
 	Custom proximityprompt by Lost
@@ -105,14 +103,8 @@ end)
 
 task.wait()
 game.StarterGui:SetCore("SendNotification", {
-	Title = "JústŁost.#9999"; 
+	Title = "Shout Out To JústŁost.#9999"; 
 	Text = "rejoin if u stuck/cant get flowers"; 
 	Icon = "";
-	Duration = math.huge;
-})
-game.StarterGui:SetCore("SendNotification", {
-	Title = 'set "tp" to false to stop'; 
-	Text = "cya"; 
-	Icon = "";
-	Duration = math.huge;
+	Duration = 15;
 })
