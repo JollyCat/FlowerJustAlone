@@ -1,5 +1,4 @@
 --Auto collect flower
-getgenv().TP = true
 getgenv().speed = 180
 getgenv().delay = 0.5 --increase this if u get suck
 
