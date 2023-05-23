@@ -1,12 +1,3 @@
---Auto collect flower
-
---[[
-	Custom proximityprompt by Lost
-	Tween by Lost
-	code is super cringe btw
-]]
-
-
 local RunService = game:GetService("RunService");
 local Players = game:GetService("Players");
 local Player = Players.LocalPlayer;
